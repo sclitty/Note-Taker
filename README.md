@@ -21,7 +21,7 @@ Note taker utilizing a user database. Save notes and delete them when you're don
 ### 2. Installation
 >For local use clone the repo and install the following npm packages - 
 >1. express
->2. iniqid
+>2. uniqid
 
 <a name="usage"></a>
 ### 3. Usage
