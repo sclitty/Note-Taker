@@ -15,32 +15,32 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"))
 
-//handles the route /notes by sending the notes.html
+//ROUTING TO /NOTES
 app.get('/notes', function(req, res) {
-    console.log("notes")
     res.sendFile(path.join(__dirname, "/public/notes.html"));
 });
+
 //handles the api call on notes to return the json data saved on file
 app.get('/api/notes', function(req, res) {
-    const json = readData();
-    res.json(json)
+    const note = readData();
+    res.json(note)
 });
 
 //POST NOTES
 app.post('/api/notes', function(req, res) {
-    let note = readData();
+    let noteJson = readData();
     const newNote = req.body
     let id = uniqid()
     newNote.id = id 
-    note.push(newObj)
-    writeData(note)
-    res.json(note)
+    noteJson.push(newNote)
+    writeData(noteJson)
+    res.json(noteJson)
 });
 
 //DELETE NOTES
 app.delete('/api/notes/:id', function(req,res) {
-    const json = readData();
-    const result = json.filter(note => note.id != req.params.id)
+    const noteJson = readData();
+    const result = noteJson.filter(note => note.id != req.params.id)
     writeData(result)
     res.json(result)
 });

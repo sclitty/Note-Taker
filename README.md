@@ -6,10 +6,8 @@
 1. [ Introduction ](#intro)
 2. [ Installation ](#install)
 3. [ Usage ](#usage)
-4. [ License ](#license)
-5. [ Contributors ](#contributing)
 6. [ Tests ](#tests)
-7. [ Questions ](#questions)
+7. [ Contact Information ](#questions)
 
 <br>
 
@@ -21,27 +19,12 @@
 <a name="install"></a>
 ### 2. Installation
 
-
+Install npm `express` and `uniqid`
 
 <a name="usage"></a>
 ### 3. Usage
 
-
-
-<a name="license"></a>
-### 4. Licence
-
-
-
-<a name="contributing"></a>
-### 5. Contributors
-
-
-
-<a name="tests"></a>
-### 6. Tests
-
-
+>Video Demo - 
 
 <a name="questions"></a>
 ### 7. Contact Information
