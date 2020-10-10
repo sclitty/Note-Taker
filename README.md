@@ -31,7 +31,5 @@ Note taker utilizing a user database. Save notes and delete them when you're don
 <a name="questions"></a>
 ### 4. Contact Information
 
-Email: 
-
-GitHub: 
+GitHub: <a href="https://github.com/sclitty">sclitty</a>
 
